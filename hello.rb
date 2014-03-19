@@ -1,4 +1,6 @@
+#!/usr/bin/ruby -w
 #single line notation
+
 puts "Hello world"
 
 =begin
