@@ -3,6 +3,8 @@
 
 puts "Hello world"
 
+puts "merge test"
+
 =begin
 
 notation line 1
