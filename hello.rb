@@ -5,6 +5,8 @@ puts "Hello world"
 
 puts "merge test"
 
+puts "reset test"
+
 =begin
 
 notation line 1
