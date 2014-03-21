@@ -14,4 +14,18 @@ def test1(global = false,case_sensitive = true)
 		end
 	end
 end
-test1(true,false)
+#test1(true,false)
+
+test_str = 'abcd'
+
+for i in 'a'..'d'
+	puts test_str =~ Regexp.new(i)
+end
+
+for i in 'a'..'d'
+	puts Regexp.new(i).test?(test_str)
+end
+puts (test_str =~ /e/).class
+
+puts test_str !~ /e/
+puts test_str !~ /a/
