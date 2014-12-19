@@ -9,3 +9,6 @@ unix_timestamp = Time::parse(str_date).to_i
 puts unix_timestamp
 str_date = Time.at(unix_timestamp).strftime('%Y-%m-%d')
 puts str_date
+
+require 'rails'
+puts Time.now+3.days
