@@ -3,11 +3,10 @@ str = "abc\n"
 
 p str 
 
-str.chop
+str.chop #str not changed
 
 p str 
 
-str.chop!
+str.chop!#modify str itself
 
 p str 
-~      
