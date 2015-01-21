@@ -24,3 +24,5 @@ option_parser = OptionParser.new do |opts|
 end.parse!
 
 p options
+
+# https://ruby-china.org/wiki/building-a-command-line-tool-with-optionparser
